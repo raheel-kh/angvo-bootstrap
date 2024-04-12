@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.angvo-primary-color{
+    background-color: #ff5722;
+}
+.angvo-primary-text-color{
+    color: #ff5722;
+}
+
+.section-one{
+    background-color: #192A52;
+}
+
+.service-card{
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.service-card:hover{
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.service-card:hover .icon-container{
+    background-color: #fff;
+}
+
+.card-icon{
+    color: #ffF;
+}
+.service-card:hover .card-icon{
+    color: #ff5722;
+}
+
+.icon-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ff5722;
+}
+
+.card-button{
+    text-decoration: none;
+    color: #ff5722;
+}
+
+.service-card:hover .card-button{
+    color: #fff;
+}
+
+.second-button{
+    margin-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.second-button:hover{
+    background-color: #ff5722;
+}
+
+.section-two{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.about-img{
+    max-width: 100%;
+}
+.section-two-content{
+    margin-top: 60px;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.section-three::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(imgs/working-line.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: .07;
+}
+.section-three {
+    background: #3b7eff;
+    padding-top: 117px;
+    padding-bottom: 125px;
+    position: relative;
+    z-index: 10;
+} 
+.section-three-title{
+    margin-bottom: 70px;
+}
+.section-three-title h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.section-three-title p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.section-three-card{
+    margin-bottom: 20px;
+}
+
+.card-title{
+    color: #fff;
+    font-size: 28px;
+    
+}
+
+.card-text{
+    color: #fff;
+}
+
+.card-img{
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    padding: 10%;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.section-four{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.section-four-img{
+    
+    padding-top: 180px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    /* padding-left: 10px; */
+}
+
+form{
+    border: none;
+}
+
+.form-item{
+    position: relative;
+}
+.form-input{
+    background-color: #EEF3F9;
+    width: 100%;
+    border: none;
+    
+    padding: 20px 30px;
+    
+}
+
+.form-input:focus{
+    background-color: #fff;
+    outline: 2px solid #ff5722;
+}
+
+.form-icon{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    height: 20px;
+    width: 20px;
+}
+
+.form-button{
+    /* margin-left: 322px; */
+    float: right;
+    color: #fff;
+    border: none;
+    background-color: #00f;
+    border-radius: 5px;
+    padding: 15px 40px;
+    animation-name: form-button-background-color;
+    animation-duration: 0.5ms;
+}
+
+@keyframes form-button-background-color {
+    from {background-color: #00f;}
+    to {background-color: #ff5722;}
+  }
+.form-button:hover{
+    background-color: #ff5722;
+}
+
+.section-five{
+    background-color: #EEF3F9;
+    /* height: 100vh; */
+    padding-bottom: 100px;
+}
+
+.section-five-top{
+    padding-top: 100px;
+
+}
+
+.section-five-top h2{
+    font-size: 60px;
+}
+.section-five-top p{
+    font-size: 25px;
+}
+
+.section-five-card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.section-five-card-star-list{
+    list-style: none;
+    color: #ff5722;
+    padding: 0px;
+   
+}
+
+.section-five-icon-container{
+    display: flex;
+    justify-content: center;
+}
+.section-five-card-icon{
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    position: absolute;
+    bottom : -25px;
+
+}
+
+
+/* Media query to make the text's font size small of the section-five-cards at small screens */
+@media (max-width : 576px){
+.section-five-card p{
+ font-size: 10px;
+ padding-left: 2px;
+ padding-right: 2px;
+}    
+}
+
+.section-six{
+    background-color: #192A52;
+    position: relative;
+    padding-top: 50px;
+}
+
+.section-six::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: url(imgs/working-line.png);
+    width: 100%;
+    height: 100%;
+    opacity: .02;
+    
+}
+.section-six-text-color{
+    color: #8A9AB5;
+}
+
+.angvo-footer-logo{
+    margin: 50px 0px;
+}
+
+.section-six-social-icons{
+    padding-left: 0;
+    list-style: none;
+
+}
+
+
+.section-six-social-icons li a i{
+    height: 40px;
+    width: 40px;
+    margin-right: 4px;
+    background: #14346b;
+    border-radius: 5px;
+    color: #4a70b1;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+
+.section-six-quick-links{
+    list-style-type:none;
+}
+
+.section-six-quick-links li a{
+    color: #8A9AB5;
+    text-decoration: none;
+    margin-bottom: 50;
+}
+
+.section-six-quick-links li a:hover{
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.input-box{
+    position: relative;
+}
+.input-box input {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    border: 0;
+    color: #8a8a8a;
+    padding-left: 30px;
+    font-size: 14px;
+   
+}
+
+.input-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    background: #fc5546;
+    color: #fff;
+}
+
+.pb{
+    padding-bottom: 85px;
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+.footer-info {
+    position: relative;
+    padding-left: 80px;
+}
+
+.footer-info .title {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.footer-info i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60px;
+    width: 60px;
+    background: #14346b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #3e63a4;
+    font-size: 24px;
+    
+  
+}
+
+.fal {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 300;
+}
+
+.footer-info span {
+    font-size: 14px;
+    color: #aeb7ca;
+    padding-top: 4px;
+}
+
+
+@media(min-width : 750px){
+.pad{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+}
+
+
+.footer-info a{
+    text-decoration: none;
+}
+
+
+.c4c4c4-text-color{
+    color: #c4c4c4;
+}
+
+.white-color{
+    background-color: #fff;
+}
