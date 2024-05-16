@@ -255,23 +255,7 @@ form{
 }    
 }
 
-.section-six{
-    background-color: #192A52;
-    position: relative;
-    padding-top: 50px;
-}
 
-.section-six::before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    background: url(imgs/working-line.png);
-    width: 100%;
-    height: 100%;
-    opacity: .02;
-    
-}
 .section-six-text-color{
     color: #8A9AB5;
 }
@@ -279,7 +263,21 @@ form{
 .angvo-footer-logo{
     margin: 50px 0px;
 }
-
+.section-six::before {
+  position: relative;
+  content: "";
+  top: 0;
+  left: 0;
+  background: url(imgs/working-line.png);
+  width: 100%;
+  height: 100%;
+}
+.section-six {
+  background-color: #192a52;
+  position: absolute;
+  padding-top: 50px;
+  width: 100%;
+}
 .section-six-social-icons{
     padding-left: 0;
     list-style: none;
